@@ -1,0 +1,108 @@
+body {
+    background-color: #151515;
+
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.lading {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
+    font-family: 'Outfit', sans-serif;
+    width: 50%;
+    height: 50%;
+}
+
+.desc {
+    background-color: #1D1D1D;
+    color: white;
+    width: 100%;
+}
+
+.lading div h1 {
+    font-size: 36px;
+    animation: changeColor 5s linear infinite;
+    font-family: 'Dancing Script', cursive;
+}
+
+@keyframes changeColor {
+    0% {
+        color: red;
+    }
+
+    14% {
+        color: orange;
+    }
+
+    28% {
+        color: yellow;
+    }
+
+    42% {
+        color: green;
+    }
+
+    57% {
+        color: blue;
+    }
+
+    71% {
+        color: indigo;
+    }
+
+    85% {
+        color: violet;
+    }
+
+    100% {
+        color: red;
+    }
+}
+
+.rainbow-div {
+    width: 20%;
+    border-radius: 100%;
+    border: 10px solid;
+    animation: changeBorderColor 5s linear infinite;
+}
+
+@keyframes changeBorderColor {
+    0% {
+        color: red;
+    }
+
+    14% {
+        color: orange;
+    }
+
+    28% {
+        color: yellow;
+    }
+
+    42% {
+        color: green;
+    }
+
+    57% {
+        color: blue;
+    }
+
+    71% {
+        color: indigo;
+    }
+
+    85% {
+        color: violet;
+    }
+
+    100% {
+        color: red;
+    }
+}
