@@ -21,43 +21,34 @@ main {
 
 .desc {
     color: white;
-    width: 40%;
     border-radius: 10px;
-    margin-right: 50px;
     padding: 10px;
 }
 
 .desc h4 {
     font-size: 20px;
-    margin-bottom: 10px;
+
 }
 
 .desc h5 {
     font-size: 18px;
-    margin-left: 20%;
+
 }
 
-.lading div h1 {
+#h1-colorchange {
     font-size: 50px;
     color: orange;
-    animation: changeColor 5s linear infinite;
-    margin-left: 10%;
     font-family: 'Caveat', cursive;
     font-family: 'Dancing Script', cursive;
     font-family: 'Kaushan Script', cursive;
-    margin-bottom: 10px;
 }
 
-.desc h2 {
-    font-size: 20px;
+::-webkit-scrollbar {
+    background-color: #1d1d1d;
+    width: 10px;
 }
 
-
-.rainbow-div {
-    width: 200px;
-    height: 200px;
-    background-color: #151515;
-    border: 2px orange solid;
-    border-radius: 50%;
-    box-shadow: 0 0 15px orange;
+::-webkit-scrollbar-thumb {
+    background-color: orange;
+    border-radius: 10px;
 }

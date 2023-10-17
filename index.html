@@ -8,16 +8,20 @@
     <script crossorigin="anonymous" src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js" defer></script>
     <script src="./app.js" defer> </script>
 
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Dancing+Script&family=Kaushan+Script&family=Outfit:wght@300&display=swap"
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Caveat&family=Dancing+Script&family=Kaushan+Script&family=Outfit:wght@300&display=swap"
         rel="stylesheet">
 
-        <link rel="stylesheet" href="css/reset.css">
-        <link rel="stylesheet" href="css/estilo.css">
-        <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/header.css">
 
-        <title>Bem-vindo(a)!</title>
+    <title>Bem-vindo(a)!</title>
 </head>
 
 <body>
@@ -32,6 +36,12 @@
             <button>Conexões</button>
             <button>Informações</button>
         </section>
+
+        <div>
+            <a target="_blank" href="https://www.linkedin.com/in/joão-vitor-pedroso-ranciaro-802148258/"><i class='bx bxl-linkedin-square' id="linkedin"></i></a>
+            <a target="_blank" href="https://github.com/JotaaVe"><i class='bx bxl-github' id="github"></i></a>
+            <a target="_blank" href=""><i class='bx bxl-whatsapp' id="zap"></i></a>
+        </div>
     </header>
 
     <main>
@@ -39,12 +49,13 @@
 
             <div class="desc">
                 <h4>Olá, estimado visitante, me chamo...</h4>
-                <h1>JotaVe</h1>
+                <h1 id="h1-colorchange" onclick="changeColor()">JotaVe</h1>
                 <h5>Atualmente cursando...</h5>
                 <h2><span class="animated"></span></h2>
             </div>
 
-            <div class="rainbow-div"></div>
+
+
         </section>
     </main>
 </body>

@@ -41,11 +41,43 @@ header button:hover::after{
 
 header h1 {
     font-size: x-large;
-    font-family: 'Dancing Script', Outfit;
+    font-family: 'Caveat', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Kaushan Script', cursive;
     color: white;
     transition: 0.3s ease-in-out;
 }
 
 header h1:hover {
     color: orange;
+}
+
+header div i {
+    font-size: xx-large;
+    color: white;
+    cursor: pointer;
+}
+
+#linkedin {
+    transition: 0.2s ease-in-out;
+}
+
+#github {
+    transition: 0.2s ease-in-out;
+}
+
+#zap {
+    transition: 0.2s ease-in-out;
+}
+
+#linkedin:hover {
+    color: #65a2dc;
+}
+
+#github:hover {
+    color: #044583;
+}
+
+#zap:hover {
+    color: #5cc86a;
 }
