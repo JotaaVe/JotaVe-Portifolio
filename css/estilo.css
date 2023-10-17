@@ -2,28 +2,6 @@ body {
     background-color: #151515;
 }
 
-header {
-    background: linear-gradient(to top, #151515, #1D1D1D);
-
-    width: 100%;
-    height: 40px;
-    margin-bottom: 80px;
-    display: flex;
-    justify-content: space-evenly;
-}
-
-header button {
-    border: none;
-    font-family: 'Outfit', sans-serif;
-    color: white;
-    background: linear-gradient(to top, #151515, #1D1D1D);
-    cursor: pointer;
-}
-
-header button:hover {
-    transform: scale(110%);
-}
-
 main {
     display: flex;
     justify-content: center;
@@ -42,7 +20,6 @@ main {
 }
 
 .desc {
-    background-color: #1D1D1D;
     color: white;
     width: 40%;
     border-radius: 10px;
@@ -50,61 +27,37 @@ main {
     padding: 10px;
 }
 
+.desc h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.desc h5 {
+    font-size: 18px;
+    margin-left: 20%;
+}
+
 .lading div h1 {
-    font-size: 36px;
+    font-size: 50px;
+    color: orange;
     animation: changeColor 5s linear infinite;
+    margin-left: 10%;
+    font-family: 'Caveat', cursive;
     font-family: 'Dancing Script', cursive;
+    font-family: 'Kaushan Script', cursive;
+    margin-bottom: 10px;
 }
 
-@keyframes changeColor {
-    0% {
-        color: red;
-    }
-
-    14% {
-        color: orange;
-    }
-
-    28% {
-        color: yellow;
-    }
-
-    42% {
-        color: green;
-    }
-
-    57% {
-        color: blue;
-    }
-
-    71% {
-        color: indigo;
-    }
-
-    85% {
-        color: violet;
-    }
-
-    100% {
-        color: red;
-    }
+.desc h2 {
+    font-size: 20px;
 }
 
-.rainbow-div { 
+
+.rainbow-div {
     width: 200px;
     height: 200px;
+    background-color: #151515;
+    border: 2px orange solid;
     border-radius: 50%;
-    animation: rainbow 5s linear infinite;
-
-}
-
-@keyframes rainbow {
-    0% { background-color: red; }
-    14% { background-color: orange; }
-    28% { background-color: yellow; }
-    42% { background-color: green; }
-    57% { background-color: blue; }
-    71% { background-color: indigo; }
-    85% { background-color: violet; }
-    100% { background-color: red; }
+    box-shadow: 0 0 15px orange;
 }
