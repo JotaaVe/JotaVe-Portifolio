@@ -60,7 +60,7 @@ main {
     position: relative;
     width: 200px;
     height: 200px;
-    background-color: white;
+    background-color: black;
     border-radius: 50%;
 
     display: flex;
@@ -75,10 +75,20 @@ main {
     width: 100px;
     height: 200%;
     background-color: #ff4d06;
+
+    animation: animate 3s linear infinite;
 }
 
 @keyframes animate {
     100%{
         transform: rotate(360deg);
     }
+}
+
+.box::after {
+    content: "";
+    position: absolute;
+    background-color: black;
+    border-radius: 50%;
+    inset: 5px;
 }
