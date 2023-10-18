@@ -10,7 +10,7 @@ main {
     display: flex;
     justify-content: center;
     align-content: center;
-    flex-direction: column;
+
     font-family: 'Outfit', sans-serif;
     width: 100%;
 
@@ -20,7 +20,7 @@ main {
     color: white;
     border-radius: 10px;
     padding: 10px;
-    width: 100%;
+    width: 70%;
     display: flex;
     align-content: center;
     flex-direction: column;
@@ -60,7 +60,7 @@ main {
     position: relative;
     width: 200px;
     height: 200px;
-    background-color: black;
+    background-color: #151515;
     border-radius: 50%;
 
     display: flex;
@@ -75,7 +75,7 @@ main {
     width: 100px;
     height: 200%;
     background-color: #ff4d06;
-
+    box-shadow: 0 0 15px #ff4d06;
     animation: animate 3s linear infinite;
 }
 
@@ -88,7 +88,9 @@ main {
 .box::after {
     content: "";
     position: absolute;
-    background-color: black;
+    background-color: #151515;
     border-radius: 50%;
     inset: 5px;
+    box-shadow: 0 0 15px #ff4d06;
 }
+
