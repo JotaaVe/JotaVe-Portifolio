@@ -12,7 +12,7 @@ header section {
     
 }
 
-header button {
+header nav a {
     border: none;
     font-family: 'Outfit', sans-serif;
     color: white;
@@ -20,9 +20,11 @@ header button {
     cursor: pointer;
     position: relative;
     margin: 5px;
+    font-size: 15px;
+    text-decoration: none;
 }
 
-header button::after {
+header nav a::after {
     content: " ";
     width: 0%;
     height: 2px;
@@ -33,7 +35,7 @@ header button::after {
     transition: 0.3s ease-in-out;
 }
 
-header button:hover::after{
+header nav a:hover::after{
     width: 100%;
     color: #5106ff;
     box-shadow: 0 0 10px #5106ff;
