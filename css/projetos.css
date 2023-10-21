@@ -1,0 +1,6 @@
+#projetos {
+    width: 100%;
+    height: 1000px;
+    background-image: radial-gradient( #0c0a0a 85%, #2f312f 90%,#0c0a0a 20%);
+    background-size: 50px 50px;
+  }

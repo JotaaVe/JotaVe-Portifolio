@@ -58,7 +58,7 @@ header h1 {
     font-size: x-large;
     font-family: 'Kanit', sans-serif;
     color: white;
-    background: linear-gradient(45deg, #ff9100, #ff009d, #ff2eff, #ff9408);
+    background: linear-gradient(90deg, #ff9100, #ff009d, #ff2eff, #ff9408);
     text-transform: uppercase;
     background-size: 400% 100%;
     -webkit-background-clip: text;
@@ -87,7 +87,7 @@ header div i {
 
 #linkedin {
     color: white;
-    background: linear-gradient(75deg, #65a2dc, #184e81, #65a2dc);
+    background: linear-gradient(90deg, #65a2dc, #184e81, #65a2dc);
     text-transform: uppercase;
     background-size: 400% 100%;
     -webkit-background-clip: text;
@@ -96,7 +96,7 @@ header div i {
 
 #github {
     color: white;
-    background: linear-gradient(45deg, #044583, #1c78ce, #044583);
+    background: linear-gradient(90deg, #044583, #1c78ce, #044583);
     text-transform: uppercase;
     background-size: 400% 100%;
     -webkit-background-clip: text;
@@ -105,7 +105,7 @@ header div i {
 
 #zap {
     color: white;
-    background: linear-gradient(45deg, #5cc86a, #1a5321, #5cc86a);
+    background: linear-gradient(90deg, #5cc86a, #1a5321, #5cc86a);
     text-transform: uppercase;
     background-size: 400% 100%;
     -webkit-background-clip: text;

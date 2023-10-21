@@ -5,11 +5,8 @@
     align-items: center;
     flex-direction: column;
     width: 100%;
-    height: 100%;
-    /* Add your background pattern here */
-    background-image: repeating-radial-gradient(#0c0a0a 80%, #2f312f 90%, #3f4549 90%);
-    background-size: 65px 65px;
-
+    height: 100%; 
+    background-color: #0c0a0a;
 }
 
 .desc {
@@ -26,11 +23,27 @@
 }
 
 .desc h1 {
+    font-size: x-large;
     font-size: 30px;
-    color: #ff9100;
     font-family: 'Kanit', sans-serif;
+    color: white;
+    background: linear-gradient(90deg, #ff9100, #ff009d, #ff2eff, #ff9408);
+    text-transform: uppercase;
+    background-size: 400% 100%;
+    -webkit-background-clip: text;
+    transition: 0.5s ease-in-out;
     text-align: start;
-    margin-bottom: 10px;
+    -webkit-text-fill-color: transparent;
+    animation: h1 10s infinite ease;
+}
+
+@keyframes h1 {
+    0%{
+        background-position-x: 0%;
+    }
+    100%{
+        background-position: 400%;
+    }
 }
 
 .desc h2 {
@@ -42,12 +55,12 @@
 /* Scroll do site */
 
 ::-webkit-scrollbar {
-    background-color: #1d1d1d;
-    width: 10px;
+    background-color: #0c0a0a;
+    width: 5px;
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: #5106ff;
+    background: linear-gradient(90deg, #ff9100, #ff009d, #ff2eff, #ff9408);
     border-radius: 10px;
 }
 

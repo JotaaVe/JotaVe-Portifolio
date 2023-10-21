@@ -2,16 +2,18 @@
     background-color: #1d1d1d;
     display: flex;
     justify-content: center;
+    align-items: center;
     font-family: 'Outfit', sans-serif;
     border-radius: 10px;
     width: 100%;
     -webkit-box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.75);
     box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.75);
-    
+
 }
 
 .card-info {
+    position: relative;
     background-color: white;
     width: 50%;
     height: 100%;
@@ -19,9 +21,52 @@
     margin: 10px;
     padding: 10px;
     border-radius: 10px;
-    -webkit-box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.75);
-    box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.75);
+    background-color: #1d1d1d;
+    color: white;
+    font-family: 'Outfit', sans-serif;
+    -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.75);
+}
+
+
+
+.card-info h1 {
+    font-family: 'Kanit', sans-serif;
+    font-size: 25px;
+    margin-bottom: 2%;
+    margin-left: 1%;
+    background: linear-gradient(90deg, #ff9100, #ff009d, #ff2eff, #ff9408);
+    background-size: 400% 100%;
+    -webkit-background-clip: text;
+    transition: 0.5s ease-in-out;
+    text-transform: uppercase;
+    -webkit-text-fill-color: transparent;
+    animation: name 5s infinite ease-in;
+}
+
+@keyframes name {
+    0% {
+        background-position-x: 0%;
+    }
+
+    100% {
+        background-position: 400%;
+    }
+}
+
+.card-info h2 {
+    margin-left: 1%;
+}
+
+.card-info a button {
+    width: 30%;
+    height: 50px;
+    border: #ff9100 1px solid;
+    border-radius: 10px;
+    background-color: transparent;
+    color: #ff9100;
+    margin-left: 1%;
 }
 
 /* foto de perfil */
@@ -114,4 +159,3 @@
 }
 
 /* Card */
-
