@@ -1,8 +1,7 @@
 header {
-    background-color: #1D1D1D;
+    background-color: black;
     width: 100%;
-    height: 40px;
-    margin-bottom: 80px;
+    height: 60px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -17,7 +16,7 @@ header nav a {
     border: none;
     font-family: 'Outfit', sans-serif;
     color: white;
-    background-color: #1D1D1D;
+    background-color: black;
     cursor: pointer;
     position: relative;
     margin: 5px;
@@ -29,29 +28,55 @@ header nav a::after {
     content: " ";
     width: 0%;
     height: 2px;
-    background-color: #ff9306;
+    background: linear-gradient(45deg, #ff9100, #ff009d, #ff2eff, #ff9408);
     position: absolute;
     bottom: 0;
     left: 0;
     transition: 0.3s ease-in-out;
+    
 }
 
 header nav a:hover::after {
     width: 100%;
-    color: #ff9306;
+    background: linear-gradient(45deg, #ff9100, #ff009d, #ff2eff, #ff9408);
     box-shadow: 0 0 10px #ff9306;
+    animation: subli 5s infinite ease-in;
+    background-size: 200% 100%;
 }
+
+@keyframes subli {
+    0%{
+        background-position-x: 0%;
+    }
+    100%{
+        background-position: 400%;
+    }
+}
+
 
 header h1 {
     font-size: x-large;
     font-family: 'Kanit', sans-serif;
     color: white;
-    transition: 0.3s ease-in-out;
-
+    background: linear-gradient(45deg, #ff9100, #ff009d, #ff2eff, #ff9408);
+    text-transform: uppercase;
+    background-size: 400% 100%;
+    -webkit-background-clip: text;
+    transition: 0.5s ease-in-out;
 }
 
 header h1:hover {
-    color: #ff9306;
+    -webkit-text-fill-color: transparent;
+    animation: jotave 5s infinite ease-in;
+}
+
+@keyframes jotave {
+    0%{
+        background-position-x: 0%;
+    }
+    100%{
+        background-position: 400%;
+    }
 }
 
 header div i {
@@ -61,25 +86,52 @@ header div i {
 }
 
 #linkedin {
-    transition: 0.2s ease-in-out;
+    color: white;
+    background: linear-gradient(75deg, #65a2dc, #184e81, #65a2dc);
+    text-transform: uppercase;
+    background-size: 400% 100%;
+    -webkit-background-clip: text;
+    transition: 0.5s ease-in-out;
 }
 
 #github {
-    transition: 0.2s ease-in-out;
+    color: white;
+    background: linear-gradient(45deg, #044583, #1c78ce, #044583);
+    text-transform: uppercase;
+    background-size: 400% 100%;
+    -webkit-background-clip: text;
+    transition: 0.5s ease-in-out;
 }
 
 #zap {
-    transition: 0.2s ease-in-out;
+    color: white;
+    background: linear-gradient(45deg, #5cc86a, #1a5321, #5cc86a);
+    text-transform: uppercase;
+    background-size: 400% 100%;
+    -webkit-background-clip: text;
+    transition: 0.5s ease-in-out;
 }
 
 #linkedin:hover {
-    color: #65a2dc;
+    -webkit-text-fill-color: transparent;
+    animation: anim 5s infinite ease-in;
 }
 
 #github:hover {
-    color: #044583;
+    -webkit-text-fill-color: transparent;
+    animation: anim 5s infinite ease-in;
 }
 
 #zap:hover {
-    color: #5cc86a;
+    -webkit-text-fill-color: transparent;
+    animation: anim 5s infinite ease-in;
+}
+
+@keyframes anim {
+    0%{
+        background-position-x: 0%;
+    }
+    100%{
+        background-position: 400%;
+    }
 }
