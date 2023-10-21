@@ -35,6 +35,7 @@
     text-align: start;
     -webkit-text-fill-color: transparent;
     animation: h1 10s infinite ease;
+    margin-bottom: 10px;
 }
 
 @keyframes h1 {
