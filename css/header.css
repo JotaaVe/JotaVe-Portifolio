@@ -6,11 +6,12 @@ header {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    -webkit-box-shadow: 0px 10px 29px 5px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 10px 29px 5px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 10px 29px 5px rgba(0, 0, 0, 0.75);
 }
 
-header section {
-    
-}
+header section {}
 
 header nav a {
     border: none;
@@ -28,30 +29,29 @@ header nav a::after {
     content: " ";
     width: 0%;
     height: 2px;
-    background-color: #5106ff;
+    background-color: #ff9306;
     position: absolute;
     bottom: 0;
     left: 0;
     transition: 0.3s ease-in-out;
 }
 
-header nav a:hover::after{
+header nav a:hover::after {
     width: 100%;
-    color: #5106ff;
-    box-shadow: 0 0 10px #5106ff;
+    color: #ff9306;
+    box-shadow: 0 0 10px #ff9306;
 }
 
 header h1 {
     font-size: x-large;
-    font-family: 'Caveat', cursive;
-    font-family: 'Dancing Script', cursive;
-    font-family: 'Kaushan Script', cursive;
+    font-family: 'Kanit', sans-serif;
     color: white;
     transition: 0.3s ease-in-out;
+
 }
 
 header h1:hover {
-    color: #5106ff;
+    color: #ff9306;
 }
 
 header div i {
