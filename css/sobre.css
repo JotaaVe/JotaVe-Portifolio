@@ -1,4 +1,4 @@
-#informacoes {
+#sobre {
     background-color: #1d1d1d;
     display: flex;
     justify-content: center;
@@ -61,6 +61,7 @@
     color: white;
     gap: 5px;
     user-select: none;
+
 }
 
 .card-info h1 {
@@ -87,16 +88,6 @@
     }
 }
 
-.card-info a button {
-    width: 30%;
-    height: 50px;
-    border: #ff9100 1px solid;
-    border-radius: 10px;
-    background-color: transparent;
-    color: #ff9100;
-    margin-left: 1%;
-}
-
 .card-info h2 {
     margin-top: 5%;
     font-family: 'Kanit', sans-serif;
@@ -108,5 +99,16 @@
 }
 
 .perfil-foto {
-    width: 200px;
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+    pointer-events: none;
+    margin-right: 3%;
+    -webkit-box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.2);
+}
+
+.perfil-foto:hover {
+    width: 50%;
 }
