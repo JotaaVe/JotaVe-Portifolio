@@ -5,7 +5,7 @@
     align-items: center;
     flex-direction: column;
     width: 100%;
-    height: 900px; 
+    height: 400px;
     background-color: #0c0a0a;
 }
 
@@ -39,10 +39,11 @@
 }
 
 @keyframes h1 {
-    0%{
+    0% {
         background-position-x: 0%;
     }
-    100%{
+
+    100% {
         background-position: 400%;
     }
 }
@@ -51,6 +52,29 @@
     font-family: 'Kanit', sans-serif;
     font-weight: 300;
     text-align: start;
+}
+
+.desc h2 span:hover {
+    animation: batebate 1s infinite ease-in-out;
+    cursor: default;
+}
+
+@keyframes batebate {
+    0%{
+        color: white;
+    }
+    25%{
+        color: red;
+    }
+    40%{
+        color: white;
+    }
+    55%{
+        color: red;
+    }
+    100%{
+        color: white;
+    }
 }
 
 /* Scroll do site */
@@ -68,5 +92,3 @@
 html {
     scroll-behavior: smooth;
 }
-
-

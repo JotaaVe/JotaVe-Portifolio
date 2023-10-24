@@ -1,4 +1,14 @@
-#menu {
+#header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    transition: top 0.3s;
+    z-index: 101;
+    /* Outros estilos do cabeçalho */
+  }
+  
+
+.menu {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -6,9 +16,9 @@
     width: 100%;
     height: 90px;
     background-color: transparent;
-    z-index: 100;
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(2px);
+    z-index: 100;
 }
 
 ul {

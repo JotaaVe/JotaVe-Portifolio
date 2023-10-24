@@ -17,3 +17,19 @@ function menu () {
         menuMobile.classList.add('open');
     }
 }
+
+// Scroll do site
+
+let prevScrollPos = window.pageYOffset;
+window.onscroll = function() {
+    let currentScrollPos = window.pageYOffset;
+    console.log("Scroll Position: " + currentScrollPos);
+  if (prevScrollPos > currentScrollPos) {
+    // Rolar para cima
+    document.getElementById("header").style.top = "0";
+  } else {
+    // Rolar para baixo
+    document.getElementById("header").style.top = "-100px"; // Altura do cabeçalho
+  }
+  prevScrollPos = currentScrollPos;
+}

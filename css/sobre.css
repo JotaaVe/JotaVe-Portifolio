@@ -1,4 +1,8 @@
-#sobre {
+body {
+    background-color: black;
+}
+
+.sobre-card {
     background-color: #1d1d1d;
     display: flex;
     justify-content: center;
@@ -10,7 +14,6 @@
     -webkit-box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.75);
     box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.75);
-
 }
 
 /* Card */
@@ -109,6 +112,3 @@
     box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.2);
 }
 
-.perfil-foto:hover {
-    width: 50%;
-}
