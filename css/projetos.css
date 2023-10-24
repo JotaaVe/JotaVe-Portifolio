@@ -13,6 +13,7 @@
   font-size: 30px;
   font-family: 'Kanit', sans-serif;
   margin-top: 5%;
+  margin-bottom: 5%;
   color: white;
   background: linear-gradient(90deg, #ff9100, #ff009d, #ff2eff, #ff9408);
   text-transform: uppercase;
@@ -34,24 +35,33 @@
   }
 }
 
+.area-projetos {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
 .proj{
   width: 190px;
-  height: 254px;
+  height: 260px;
+  margin-right: 1.5%;
+  margin-left: 1.5%;
+  margin-bottom: 3%;
   background-image: linear-gradient(163deg, #ff9100, #ff009d, #ff2eff, #ff9408 100%);
-  border-radius: 10px;
+  border-radius: 6%;
   transition: all .3s;
  }
  
  .proj2{
   width: 190px;
-  height: 254px;
+  height: 260px;
   background-color: #1d1d1d;
   transition: all .2s;
  }
  
  .proj2:hover {
   transform: scale(0.98);
-  border-radius: 10px;
+  border-radius: 5%;
  }
  
  .proj:hover {

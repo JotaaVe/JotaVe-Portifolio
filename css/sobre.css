@@ -6,6 +6,7 @@ body {
     background-color: #1d1d1d;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     align-items: center;
     font-family: 'Outfit', sans-serif;
     border-radius: 10px;
