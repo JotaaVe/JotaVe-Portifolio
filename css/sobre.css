@@ -9,9 +9,11 @@ body {
     flex-wrap: wrap;
     align-items: center;
     font-family: 'Outfit', sans-serif;
+    padding: auto;
     border-radius: 10px;
     width: 100%;
-    height: 400px;
+    height: 100%;
+    min-height: 400px;
     -webkit-box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.75);
     box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.75);
@@ -68,6 +70,20 @@ body {
 
 }
 
+.card-info ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: disc;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    height: 100%;
+}
+
+.card-info ul li {
+    margin: 0;
+}
+
 .card-info h1 {
     font-family: 'Kanit', sans-serif;
     font-size: 20px;
@@ -105,6 +121,7 @@ body {
 .perfil-foto {
     width: 100%;
     max-width: 300px;
+    margin: 10px;
     border-radius: 10px;
     pointer-events: none;
     margin-right: 3%;
