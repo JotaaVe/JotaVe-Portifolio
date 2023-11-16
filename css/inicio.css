@@ -25,6 +25,7 @@
 .desc h1 {
     font-size: x-large;
     font-size: 30px;
+    min-width: 250px;
     font-family: 'Kanit', sans-serif;
     color: white;
     background: linear-gradient(90deg, #ff9100, #ff009d, #ff2eff, #ff9408);
@@ -36,6 +37,7 @@
     -webkit-text-fill-color: transparent;
     animation: h1 10s infinite ease;
     margin-bottom: 10px;
+    
 }
 
 @keyframes h1 {
