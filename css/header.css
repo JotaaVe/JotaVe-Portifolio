@@ -5,10 +5,10 @@
     transition: top 0.3s;
     z-index: 101;
     /* Outros estilos do cabeçalho */
-  }
-  
+}
 
-.menu {
+
+#nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -52,10 +52,11 @@ header h1 {
 }
 
 @keyframes h1 {
-    0%{
+    0% {
         background-position-x: 0%;
     }
-    100%{
+
+    100% {
         background-position: 400%;
     }
 }
@@ -63,14 +64,29 @@ header h1 {
 
 /* menu responsivo  */
 
+#menu-hmb {
+    text-align: center;
+    background-color: transparent;
+    outline: 0;
+    border: none;
+    cursor: pointer;
+    display: block;
+}
+
 .bx-menu {
     color: white;
     font-size: 30px;
 }
 
-.second-menu {
+#mobile-menu {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+}
+
+#mobile-menu li i {
+    font-size: 20px;
+    vertical-align: middle;
 }
 
 @media (max-width: 525px) {
@@ -79,12 +95,24 @@ header h1 {
         display: none;
     }
 
+    #mobile-menu {
+        display: none;
+    }
+
 }
 
 @media (min-width: 526px) {
 
-    .second-menu, .bx-menu {
+    #menu-hmb {
         display: none;
+    }
+
+    #mobile-menu {
+        display: none;
+    }
+
+    #nav.active #mobile-menu {
+        display: flex;
     }
 
 }
