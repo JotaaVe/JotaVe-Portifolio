@@ -34,3 +34,37 @@
     background-position: 400%;
   }
 }
+
+.proj {
+  position: relative;
+  width: 90%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color:#191931;
+  color: white;
+  font-family: 'Kanit', sans-serif;
+  transition: 0.2s ease-in-out;
+}
+
+.proj h2 {
+  position: absolute;
+  top: 15px;
+}
+
+.proj:hover {
+  border-radius: 10px;
+}
+
+.proj img {
+  border-radius: 10px;
+  width: 200px;
+  left: 15px;
+  margin-top: 35px;
+}
+
+.proj h3 {
+  width: 70%;
+}
