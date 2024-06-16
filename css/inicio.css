@@ -82,12 +82,12 @@
 /* Scroll do site */
 
 ::-webkit-scrollbar {
-    background-color: #0c0a0a;
+    background-color: #090915;
     width: 5px;
 }
 
 ::-webkit-scrollbar-thumb {
-    background: linear-gradient(180deg, #ff9100, #ff009d, #ff2eff, #ff9408);
+    background: #191931;
     border-radius: 10px;
 }
 
